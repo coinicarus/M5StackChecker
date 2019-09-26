@@ -37,7 +37,7 @@ void display_price() //function for displaying the bitcoin price
   M5.Lcd.setCursor(40, 80);
   M5.Lcd.setTextSize(4);
   M5.Lcd.setTextColor(TFT_WHITE);
-  M5.Lcd.println("BTC price = " + conversion);
+  M5.Lcd.println("1 BTC = " + String(conversion) + " " + on_sub_currency);
 }
 
 void on_rates() //function for getting bitcoins price
@@ -55,8 +55,6 @@ void on_rates() //function for getting bitcoins price
   while (client.connected()) {
     String line = client.readStringUntil('\n');
     if (line == "\r") {
-  Serial.println("poo");
- 
       break;
     }
   }
