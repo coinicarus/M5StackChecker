@@ -34,8 +34,8 @@ void loop() {
 void display_price() //function for displaying the bitcoin price
 {
   M5.Lcd.fillScreen(BLACK);
-  M5.Lcd.setCursor(40, 80);
-  M5.Lcd.setTextSize(4);
+  M5.Lcd.setCursor(50, 80);
+  M5.Lcd.setTextSize(2);
   M5.Lcd.setTextColor(TFT_WHITE);
   M5.Lcd.println("1 BTC = " + String(conversion) + " " + on_sub_currency);
 }
