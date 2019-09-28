@@ -3,8 +3,8 @@
 #include <WiFiClientSecure.h>
 
 //Wifi details
-char wifiSSID[] = "YOUR-WIFI";
-char wifiPASS[] = "YOUR-PASS";
+char wifiSSID[] = "YOUR-WIFI"; //case sensitive
+char wifiPASS[] = "YOUR-PASS"; //case sensitive
  
 const int httpsPort = 443;
 float conversion;
