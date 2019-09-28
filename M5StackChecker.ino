@@ -11,8 +11,7 @@ float conversion;
  
 String on_currency = "BTCEUR"; //currency can be changed here ie BTCUSD BTCGBP etc
 String on_sub_currency = on_currency.substring(3);
-String memo = "Memo "; //memo suffix, followed by the price then a random number
- 
+
 void setup() {
   M5.begin();
 
