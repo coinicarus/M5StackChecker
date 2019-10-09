@@ -1,5 +1,5 @@
 # M5StackChecker
-A simple price checker to get people started flashing the M5Stack module.
+A simple price checker to get people started flashing the M5StickC module.
 
 # Installing arduino + libraries
 
@@ -11,6 +11,7 @@ https://github.com/espressif/arduino-esp32#installation-instructions
 
 From "Manage Libraries" install,<br>
 - ArduinoJson
-- M5Stack
+- M5StickC
 
 ![a](https://i.imgur.com/mCfnhZN.png)
+![a](https://ae01.alicdn.com/kf/HTB1VS8ZXWWs3KVjSZFxq6yWUXXai/M5Stickc-Esp32-Pico-Mini-Iot-Development-Board-Finger-Computer-With-A-Color-Lcd-Display.jpg)
