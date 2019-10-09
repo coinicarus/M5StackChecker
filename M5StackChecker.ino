@@ -1,15 +1,15 @@
-#include <M5Stack.h>
+#include <M5StickC.h>
 #include <ArduinoJson.h>
 #include <WiFiClientSecure.h>
 
 //Wifi details
-char wifiSSID[] = "YOUR-WIFI"; //case sensitive
-char wifiPASS[] = "YOUR-PASS"; //case sensitive
+char wifiSSID[] = "WIFI_NAME"; //case sensitive
+char wifiPASS[] = "WIFI_PASS"; //case sensitive
  
 const int httpsPort = 443;
 float conversion;
  
-String on_currency = "BTCEUR"; //currency can be changed here ie BTCUSD BTCGBP etc
+String on_currency = "BTCUSD"; //currency can be changed here ie BTCUSD BTCGBP etc
 String on_sub_currency = on_currency.substring(3);
 
 void setup() {
@@ -32,11 +32,12 @@ void loop() {
  
 void display_price() //function for displaying the bitcoin price
 {
+  M5.lcd.setRotation (17);
   M5.Lcd.fillScreen(BLACK);
-  M5.Lcd.setCursor(50, 80);
-  M5.Lcd.setTextSize(2);
+  M5.Lcd.setCursor(15, 35);
+  M5.Lcd.setTextSize(1);
   M5.Lcd.setTextColor(TFT_WHITE);
-  M5.Lcd.println("1 BTC = " + String(conversion) + " " + on_sub_currency);
+  M5.Lcd.println("1 BTC = "+ String(conversion) + " " + on_sub_currency);
 }
 
 void on_rates() //function for getting bitcoins price
