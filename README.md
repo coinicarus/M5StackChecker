@@ -21,8 +21,11 @@ From "Manage Libraries" install,<br>
 - M5Stack (optional, but i did it)
 
 ![a](https://i.imgur.com/mCfnhZN.png)
+<br>
+<br>
+<br>
 
-Note:You may need WifiClientSecure.h, i've seen instances where WifiClientSecure.h cannot be found when compiliing. you may need to add this script to your working sketch hardware libraries folder <br>
+Note:You may need WifiClientSecure.h, I've seen instances where WifiClientSecure.h cannot be found when compiliing. you may need to add this script to your working sketch hardware libraries folder <br>
 https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFiClientSecure
 
 <br>
