@@ -12,8 +12,7 @@ https://www.arduino.cc/en/Main/Software
 Install the M5Stack and M5stick Libraries <br>
 https://docs.m5stack.com/#/en/related_documents/Arduino_IDE?id=install-m5stack-library
 
-Install the ESP32 hardware (this is optional, i would just install it) <br>  
-https://docs.m5stack.com/#/en/related_documents/Arduino_IDE?id=install-esp32-board
+Install the ESP32 hardware (this is optional, i would just install it)<br>https://docs.m5stack.com/#/en/related_documents/Arduino_IDE?id=install-esp32-board
 
 
 From "Manage Libraries" install,<br>
