@@ -1,5 +1,5 @@
 # M5StackChecker
-A simple price checker to get people started flashing the M5StickC module.
+A simple Bitcoin price checker to get people started using the M5StickC module.
 
 # Installing arduino + libraries + related software 
 
