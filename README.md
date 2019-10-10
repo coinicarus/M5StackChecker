@@ -18,6 +18,7 @@ Install the ESP32 hardware (this is optional, i would just install it)<br>https:
 From "Manage Libraries" install,<br>
 - ArduinoJson
 - M5StickC
+- M5Stack (optional, but i did it)
 
 ![a](https://i.imgur.com/mCfnhZN.png)
 
