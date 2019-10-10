@@ -22,8 +22,13 @@ From "Manage Libraries" install,<br>
 
 ![a](https://i.imgur.com/mCfnhZN.png)
 
+Note:You may need WifiClientSecure.h, i've seen instances where WifiClientSecure.h cannot be found when compiliing. you may need to add this script to your working sketch hardware libraries folder <br>
+https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFiClientSecure
+
+<br>
+<br>
+<br>
 
 ![a](https://can01.anibis.ch/Bauteile---Bausatze-M5StickC-ESP32-PICO-Mini-IoT/?464x348/0/60/anibis/351/534/030/2Re5rV0XiEKd58mhbUR9Dw_1.jpg)
 
-Note:You may need this, i've seen instances where WifiClientSecure cannot be found when compiliing. you may need to this to your working sketch harware libraries folder <br>
-https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFiClientSecure
+
