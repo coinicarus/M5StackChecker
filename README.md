@@ -26,9 +26,17 @@ From "Manage Libraries" install,<br>
 <br>
 
 <b>Note:<b> <br>
-You may need WifiClientSecure.h, I've seen instances where WifiClientSecure.h cannot be found when compiliing. you may need to add this script to your working sketch hardware libraries folder <br>
+You may need WifiClientSecure.h, I've seen instances where WifiClientSecure.h cannot be found when compiliing. you may need to add this script to your working sketch hardware libraries folder, check to make sure you have it like shown below <br>
 https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFiClientSecure
+<br>
+  <br>
+   ![a](https://i.imgur.com/n2cBn3G.png)
 
+<br>
+<br>
+<br>
+
+![a](https://i.imgur.com/m7su5h3.png)
 <br>
 <br>
 <br>
