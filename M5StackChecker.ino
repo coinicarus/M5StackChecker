@@ -3,7 +3,7 @@
 #include <WiFiClientSecure.h>
  
 //Wifi details
-char wifiSSID[] = "WIFI_NAME"; //case sensitive
+char wifiSSID[] = "WIFI_NAME"; //case sensitive  No spaces or specials characters, you may need to change your wifi SSID name.
 char wifiPASS[] = "WIFI_PASS"; //case sensitive
  
 const int httpsPort = 443;
